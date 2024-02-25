@@ -11,37 +11,19 @@ def FLEXtopo(ParPlateau, ParHillslope_crop, ParHillslope_forest, ParWetland, Par
     tmax = len(forcing[:, 0])
 
     # initialize states
-    States_plateau = np.zeros((tmax, 3))
-    States_hillslope = np.zeros((tmax, 3))
-    States_hillslope_crop = np.zeros((tmax, 3))
-    States_hillslope_forest = np.zeros((tmax, 3))
+    States_plateau, States_hillslope, States_hillslope_crop, States_hillslope_forest,
     States_wetland = np.zeros((tmax, 3))
 
-    Ss = np.zeros((tmax, 1))
 
     # initialize fluxes
-    Fluxes_plateau = np.zeros((tmax, 4))
-    Fluxes_hillslope = np.zeros((tmax, 4))
-    Fluxes_hillslope_crop = np.zeros((tmax, 4))
-    Fluxes_hillslope_forest = np.zeros((tmax, 4))
-    Fluxes_wetland = np.zeros((tmax, 4))
+    Fluxes_plateau, Fluxes_hillslope, Fluxes_hillslope_crop, Fluxes_hillslope_forest,
+    Fluxes_wetland= np.zeros((tmax, 4))
 
     # initialize concentration
-    conc_hillslope = np.zeros((tmax, 3))
-    conc_hillslope_crop = np.zeros((tmax, 3))
-    conc_hillslope_forest = np.zeros((tmax, 3))
+    conc_hillslope, conc_hillslope_crop, conc_hillslope_forest = np.zeros((tmax, 3))
     conc_wetland = np.zeros((tmax, 4))
 
-    Qsdt = np.zeros(tmax)
-    Qfdt = np.zeros(tmax)
-    Qtotdt = np.zeros(tmax)
-    Ctot = np.zeros(tmax)
-    Ea = np.zeros(tmax)
-
-    cs = np.zeros(tmax)
-    Cs = np.zeros(tmax)
-    Ctot = np.zeros(tmax)
-    Ctot_fin = np.zeros(tmax)
+    Qsdt, Qfdt, Qtotdt, Ctot, Ea, cs, Cs, Ctot,  Ctot_fin = np.zeros(tmax)
 
     frac = 0.7
     A_basin = 1274215423 / 1000
