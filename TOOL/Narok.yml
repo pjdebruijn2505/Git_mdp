@@ -9,16 +9,3 @@ narok1:
     meta:
         category: topography
     nodata: 1850
-
-meta:
-    name: 
-name2:
-    path:  
-    data_type: RasterDataset
-    driver: raster
-    crs: 
-    meta:
-        category: topography
-    nodata: 
-
-    
