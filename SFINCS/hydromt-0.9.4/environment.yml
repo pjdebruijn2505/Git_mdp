@@ -1,0 +1,48 @@
+name: hydromt
+
+channels:
+- conda-forge
+
+dependencies:
+- affine
+- black
+- bottleneck
+- click
+- dask
+- flit
+- fsspec
+- geopandas>=0.10
+- importlib_metadata
+- mercantile
+- netcdf4
+- numba
+- numpy>=1.23
+- packaging
+- pandas
+- pip>=23.1.2
+- pre-commit
+- pydantic~=2.4
+- pyflwdir>=0.5.4
+- pyogrio>=0.6
+- pyproj
+- pystac
+- pytest-cov
+- pytest-mock
+- pytest-timeout
+- pytest>=2.7.3
+- python~=3.11.0
+- pyyaml
+- rasterio
+- requests
+- rioxarray
+- ruff
+- scipy
+- shapely>=2.0.0
+- tomli
+- tomli-w
+- twine
+- universal_pathlib<0.2
+- xarray
+- xmltodict
+- xugrid
+- zarr
