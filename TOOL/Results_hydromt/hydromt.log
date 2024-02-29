@@ -409,3 +409,5 @@
 2024-02-13 16:32:47,810 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
 2024-02-18 14:46:43,574 - hydromt_sfincs.sfincs - sfincs - WARNING - Interpolate data at 0 cells
 2024-02-18 14:46:57,559 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
+2024-02-29 14:39:30,401 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
+2024-02-29 14:55:36,089 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
