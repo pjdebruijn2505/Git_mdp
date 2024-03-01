@@ -1,0 +1,11 @@
+
+meta:
+    name: Tana
+narok1:
+    path: 
+    data_type: RasterDataset
+    driver: raster
+    crs: 32736
+    meta:
+        category: topography
+    nodata: 
