@@ -1,0 +1,24 @@
+srtm30:
+  crs: 4326
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: topography
+    source_licence: ODbL 1.0
+    source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
+    source_version: 1.0
+  path: STRM30DEM.tif
+rivers_lin2019_v1:
+  data_type: GeoDataFrame
+  driver: vector
+  meta:
+    category: hydrography
+    paper_doi: 10.5281/zenodo.3552776
+    paper_ref: Lin et al. (2019)
+    source_license: CC-BY-NC 4.0
+    source_url: https://zenodo.org/record/3552776#.YVbOrppByUk
+    source_version: 1
+  path: data_river_lin\rivers_ge30m.shp
+  rename:
+    width_m: rivwth
+    Q2: qbankfull

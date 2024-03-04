@@ -1,0 +1,8 @@
+2024-03-04 17:58:01,857 - prepare data catalog - log - DEBUG - Writing log messages to new file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-04 17:58:01,858 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 17:59:06,859 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 17:59:06,865 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 18:10:43,195 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 18:10:43,200 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 18:10:51,850 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 18:10:51,857 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
