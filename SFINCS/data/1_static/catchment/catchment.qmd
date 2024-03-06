@@ -1,0 +1,55 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.36.0-Maidenhead">
+  <identifier>ke_water_basins</identifier>
+  <parentidentifier></parentidentifier>
+  <language>EN</language>
+  <type>dataset</type>
+  <title>ke_water_basins</title>
+  <abstract>This dataset portrays river basins and sub-basins (catchments and sub-catchments) in Kenya.
+
+This data was used in selected maps in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>basins</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>mailing and physical address</type>
+      <address>10 G Street NE Suite 800</address>
+      <city>Washington</city>
+      <administrativearea>DC</administrativearea>
+      <postalcode>20002</postalcode>
+      <country>U.S.A</country>
+    </contactAddress>
+    <name>World Resources Institute</name>
+    <organization>World Resources Institute</organization>
+    <position></position>
+    <voice>202-729-7600</voice>
+    <fax>202-729-7686</fax>
+    <email></email>
+    <role>Contact</role>
+  </contact>
+  <links>
+    <link name="Shapefile" type="Local Area Network" url="file://\\WRICSAP029333\GIS\Working\Poverty_mapping_East_Africa\Map_files_posters_NEW\Final_products\Data_CD\Metadata_Oct23\Shapefiles\ke_water_basins.shp" size="" description="" format="" mimeType=""/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <constraints type="Toegang">None</constraints>
+  <rights>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxz="0" dimensions="2" miny="-4.6835659999999999" maxx="41.8984530000000035" maxy="5.43578899999999976" crs="EPSG:4326" minz="0" minx="33.94977999999999696"/>
+  </extent>
+</qgis>

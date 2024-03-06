@@ -1,0 +1,149 @@
+2024-03-04 17:58:01,857 - prepare data catalog - log - DEBUG - Writing log messages to new file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-04 17:58:01,858 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 17:59:06,859 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 17:59:06,865 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 18:10:43,195 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 18:10:43,200 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-04 18:10:51,850 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-04 18:10:51,857 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 10:22:05,809 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 10:22:05,810 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:13:39,810 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 12:13:39,811 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:22:25,538 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 12:22:25,539 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:42:55,834 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 12:42:55,836 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:43:59,217 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 12:43:59,234 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:44:34,144 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 12:44:34,161 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 12:44:52,231 - prepare data catalog - geodataset - INFO - Reading tanabasin vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\catchment\total_tana_catchement_area_clip.shp
+2024-03-06 13:05:55,051 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 13:05:55,053 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 13:05:55,092 - prepare data catalog - geodataset - INFO - Reading tanabasin vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\catchment\catchment.geojson
+2024-03-06 13:08:28,121 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\catchment\total_tana_catchement_area_clip.shp
+2024-03-06 13:08:28,168 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [36.62084198 -3.15415692 41.56046295  0.47996607] (crs = EPSG:4326)'}
+2024-03-06 13:08:41,593 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\catchment\total_tana_catchement_area_clip.shp
+2024-03-06 13:08:41,622 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [36.62084198 -3.15415692 41.56046295  0.47996607] (crs = EPSG:4326)'}
+2024-03-06 13:08:41,623 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 13:09:29,978 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\catchment\catchment.geojson
+2024-03-06 13:09:30,114 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [36.62084198 -3.15415692 41.56046295  0.47996607] (crs = EPSG:4326)'}
+2024-03-06 13:09:30,115 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 13:11:33,769 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\catchment\catchment.geojson
+2024-03-06 13:11:33,874 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [36.62084198 -3.15415692 41.56046295  0.47996607] (crs = EPSG:4326)'}
+2024-03-06 13:11:33,875 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 13:12:08,595 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\catchment\catchment.geojson
+2024-03-06 13:12:08,693 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [36.62084198 -3.15415692 41.56046295  0.47996607] (crs = EPSG:4326)'}
+2024-03-06 13:12:08,695 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 14:36:42,180 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 14:36:42,181 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 14:37:30,790 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 14:37:30,791 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 14:37:38,922 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 14:37:39,031 - prepare data catalog - rasterdataset - DEBUG - Clip to [36.621, 0.480, 100036.621, 100000.480] (epsg:4326))
+2024-03-06 14:37:39,041 - prepare data catalog - merge - DEBUG - No data da1, start with empty array
+2024-03-06 14:37:39,043 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 14:37:39,045 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 10000 cells
+2024-03-06 14:39:53,498 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 14:39:53,498 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 14:40:18,933 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 14:40:19,026 - prepare data catalog - rasterdataset - DEBUG - Clip to [36.621, 0.480, 100036.621, 100000.480] (epsg:4326))
+2024-03-06 14:40:19,037 - prepare data catalog - merge - DEBUG - No data da1, start with empty array
+2024-03-06 14:40:19,038 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 14:40:19,042 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 10000 cells
+2024-03-06 15:12:46,937 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 15:12:46,945 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:13:15,464 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 15:13:15,465 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:24:04,078 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 15:24:04,079 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:24:23,918 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 15:24:23,925 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:26:30,030 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 15:26:30,039 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:28:42,232 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 15:28:42,240 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:29:28,587 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static.yml
+2024-03-06 15:29:28,595 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:29:29,064 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:29:49,267 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:29:49,272 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:29:52,267 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:29:52,271 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:33:13,833 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:33:13,837 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:33:13,839 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:33:13,844 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:33:53,033 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:33:53,037 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:33:53,039 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:33:53,045 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:37:58,807 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:37:58,812 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:37:58,817 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:37:58,825 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:38:25,610 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:38:25,614 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:38:25,618 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:38:25,623 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:39:05,657 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:39:05,661 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:39:05,663 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:39:05,669 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:39:28,175 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:39:28,180 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:39:43,660 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:39:43,663 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:43:04,547 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:43:04,551 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:44:29,530 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:44:29,534 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:44:37,699 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:44:37,705 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:44:56,633 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:44:56,638 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:53:02,494 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:53:02,500 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:54:03,301 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:54:03,307 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:54:21,916 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:54:21,921 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:55:44,037 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 15:55:44,140 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.561, 0.480] (epsg:4326))
+2024-03-06 15:55:45,958 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 15:55:46,079 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 5839880 cells
+2024-03-06 15:58:22,317 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 15:58:22,322 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:58:22,372 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:58:22,448 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 15:58:22,619 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.561, 0.480] (epsg:4326))
+2024-03-06 15:58:25,912 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 15:58:26,067 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 5839880 cells
+2024-03-06 15:59:10,136 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 15:59:10,137 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:59:10,160 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:59:10,207 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 15:59:10,342 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.600, 0.500] (epsg:4326))
+2024-03-06 15:59:11,504 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 15:59:11,507 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 604 cells
+2024-03-06 15:59:31,148 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:59:31,153 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 15:59:33,030 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 15:59:33,056 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.570, 0.480] (epsg:4326))
+2024-03-06 15:59:34,174 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 15:59:34,177 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 58696 cells
+2024-03-06 15:59:43,773 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 15:59:43,774 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 15:59:43,794 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 15:59:43,845 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 15:59:43,984 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.570, 0.480] (epsg:4326))
+2024-03-06 15:59:45,149 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 15:59:45,154 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 58696 cells
+2024-03-06 16:01:21,076 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 16:01:21,102 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.570, 0.480] (epsg:4326))
+2024-03-06 16:01:22,238 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 16:01:22,245 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 58696 cells
+2024-03-06 16:01:29,021 - prepare data catalog - regulargrid - INFO - 1 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 16:01:29,026 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 16:01:29,042 - prepare data catalog - model_api - WARNING - Replacing geom: region
