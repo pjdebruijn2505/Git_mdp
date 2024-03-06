@@ -1,3 +1,13 @@
+tanabasin:
+  crs: 4326
+  data_type: GeoDataset
+  driver: vector
+  meta:
+    category: shape file
+    source_licence: ODbL 1.0
+    source_url: https://data.humdata.org/dataset/cod-ab-ken?
+    source_version: 1.0
+  path: catchment\catchment.geojson
 srtm30:
   crs: 4326
   data_type: RasterDataset
@@ -33,3 +43,15 @@ vito:
     source_url: https://land.copernicus.eu/global/products/lc
     source_version: v2.0.2
   path: landuse\landuse.tif
+osm_coastlines:
+  crs: 4326
+  data_type: GeoDataFrame
+  driver: vector
+  meta:
+    category: geography
+    source_author: OpenStreetMap
+    source_info: OpenStreetMap coastlines water polygons, last updated 2020-01-09T05:29
+    source_license: ODbL
+    source_url: https://osmdata.openstreetmap.de/data/coastlines.html
+    source_version: 1.0
+  path: osm_coastlines\osm_coastlines.gpkg
