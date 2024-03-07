@@ -201,3 +201,32 @@
 2024-03-06 17:15:36,262 - prepare data catalog - regulargrid - INFO - 8 gaps outside valid elevation range < 10.0 km2.
 2024-03-06 17:15:36,266 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
 2024-03-06 17:15:36,279 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-07 15:14:31,886 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:14:31,889 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:21:18,104 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:21:18,105 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:21:22,710 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:21:22,841 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.789, -0.269] (epsg:4326))
+2024-03-07 15:21:23,457 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:21:23,461 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 19130 cells
+2024-03-07 15:23:41,615 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:23:41,616 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:23:45,400 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:23:45,516 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.763, -0.283] (epsg:4326))
+2024-03-07 15:23:45,913 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:23:45,917 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 2884 cells
+2024-03-07 15:24:05,558 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:24:05,559 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:24:11,058 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:24:11,215 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-07 15:24:11,723 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:24:11,727 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-07 15:24:49,711 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-07 15:24:49,716 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-07 15:24:53,509 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-07 15:24:53,518 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-07 15:24:53,554 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-07 15:26:52,660 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:27:33,735 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:27:43,167 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:32:05,043 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif

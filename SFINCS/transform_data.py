@@ -1,6 +1,24 @@
 from osgeo import gdal, ogr, osr
+import os
 
 def clip_raster_with_kml(input_raster, kml_file, output_raster):
+    # Open the input raster
+    raster_ds = gdal.Open(input_raster)
+    if raster_ds is None:
+        print(f"Error: Unable to open raster file '{input_raster}'")
+        return
+
+    # Open the KML file
+    kml_ds = ogr.Open(kml_file)
+    if kml_ds is None:
+        print(f"Error: Unable to open KML file '{kml_file}'")
+        return
+
+    # Get the KML layer
+    kml_layer = kml_ds.GetLayer()
+    if kml_layer is None:
+        print(f"Error: No layers found in KML file '{kml_file}'")
+        return
     
     # Open the input raster
     raster_ds = gdal.Open(input_raster)

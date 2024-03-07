@@ -17,7 +17,7 @@ srtm30:
     source_licence: ODbL 1.0
     source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
     source_version: 1.0
-  path: srtm30\STRM30DEM.tif
+  path: srtm30\STRM30DEM_tana.tif
 rivers_lin2019_v1:
   data_type: GeoDataFrame
   driver: vector
@@ -28,7 +28,7 @@ rivers_lin2019_v1:
     source_license: CC-BY-NC 4.0
     source_url: https://zenodo.org/record/3552776#.YVbOrppByUk
     source_version: 1
-  path: data_river_lin\tana_lin.gpkg
+  path: data_river_lin\rivers_lin_tana.gpkg
   rename:
     width_m: rivwth
     Q2: qbankfull

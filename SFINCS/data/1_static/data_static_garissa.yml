@@ -17,7 +17,7 @@ srtm30:
     source_licence: ODbL 1.0
     source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
     source_version: 1.0
-  path: STRM30DEM.tif
+  path: srtm30\STRM30DEM_garissa.tif
 rivers_lin2019_v1:
   data_type: GeoDataFrame
   driver: vector
@@ -28,7 +28,7 @@ rivers_lin2019_v1:
     source_license: CC-BY-NC 4.0
     source_url: https://zenodo.org/record/3552776#.YVbOrppByUk
     source_version: 1
-  path: data_river_lin\tana_lin.gpkg
+  path: data_river_lin\rivers_lin_garissa.gpkg
   rename:
     width_m: rivwth
     Q2: qbankfull
@@ -42,7 +42,7 @@ vito:
     paper_ref: Buchhorn et al (2020)
     source_url: https://land.copernicus.eu/global/products/lc
     source_version: v2.0.2
-  path: landuse\landuse_vito.tif
+  path: landuse\landuse_vito_garissa.tif
 osm_coastlines:
   crs: 4326
   data_type: GeoDataFrame
