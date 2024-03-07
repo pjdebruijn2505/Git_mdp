@@ -42,7 +42,7 @@ vito:
     paper_ref: Buchhorn et al (2020)
     source_url: https://land.copernicus.eu/global/products/lc
     source_version: v2.0.2
-  path: landuse\landuse_vito.tif
+  path: landuse\landuse_vito_tana.tif
 osm_coastlines:
   crs: 4326
   data_type: GeoDataFrame
