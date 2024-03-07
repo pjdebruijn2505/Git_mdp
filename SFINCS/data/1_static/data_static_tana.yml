@@ -17,7 +17,7 @@ srtm30:
     source_licence: ODbL 1.0
     source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
     source_version: 1.0
-  path: STRM30DEM.tif
+  path: srtm30\STRM30DEM.tif
 rivers_lin2019_v1:
   data_type: GeoDataFrame
   driver: vector
@@ -42,7 +42,7 @@ vito:
     paper_ref: Buchhorn et al (2020)
     source_url: https://land.copernicus.eu/global/products/lc
     source_version: v2.0.2
-  path: landuse\landuse.tif
+  path: landuse\landuse_vito.tif
 osm_coastlines:
   crs: 4326
   data_type: GeoDataFrame
