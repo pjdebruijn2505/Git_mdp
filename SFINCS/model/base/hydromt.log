@@ -147,3 +147,86 @@
 2024-03-06 16:01:29,021 - prepare data catalog - regulargrid - INFO - 1 gaps outside valid elevation range < 10.0 km2.
 2024-03-06 16:01:29,026 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
 2024-03-06 16:01:29,042 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:02:53,066 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-06 17:02:53,067 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-06 17:02:53,090 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=bbox): {'bbox': [36.620972222222214, -3.1540277777777708, 41.56041666666665, 0.4798611111111084]}
+2024-03-06 17:02:53,133 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\STRM30DEM.tif
+2024-03-06 17:02:53,224 - prepare data catalog - rasterdataset - DEBUG - Clip to [37.000, -3.000, 41.570, 0.480] (epsg:4326))
+2024-03-06 17:02:54,422 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-06 17:02:54,430 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 58696 cells
+2024-03-06 17:02:56,096 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:02:56,247 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:06:22,670 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:06:22,938 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:07:16,904 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:07:17,008 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:09:43,562 - prepare data catalog - regulargrid - INFO - 1 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:09:43,568 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:09:43,580 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:09:44,557 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:09:44,722 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:10:34,254 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:10:34,364 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:10:44,888 - prepare data catalog - regulargrid - INFO - 20 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:10:44,895 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:10:44,913 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:10:52,574 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:10:52,781 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:13:38,855 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:13:38,960 - prepare data catalog - geodataframe - DEBUG - Clip intersects [37.000, -3.000, 41.570, 0.480] (EPSG:4326)
+2024-03-06 17:13:39,042 - prepare data catalog - regulargrid - INFO - 8 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:13:39,047 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:13:39,058 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:13:57,957 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:13:58,119 - prepare data catalog - geodataframe - DEBUG - Clip intersects [40.160, -3.000, 41.570, -1.660] (EPSG:4326)
+2024-03-06 17:13:58,212 - prepare data catalog - regulargrid - INFO - 8 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:13:58,217 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:13:58,230 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:14:01,572 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:14:01,754 - prepare data catalog - geodataframe - DEBUG - Clip intersects [40.160, -3.000, 41.570, -1.660] (EPSG:4326)
+2024-03-06 17:14:01,845 - prepare data catalog - regulargrid - INFO - 8 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:14:01,850 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:14:01,863 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:15:23,865 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:15:23,984 - prepare data catalog - geodataframe - DEBUG - Clip intersects [40.160, -3.000, 41.570, -1.660] (EPSG:4326)
+2024-03-06 17:15:24,007 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:15:24,074 - prepare data catalog - sfincs - WARNING - No active cells found.
+2024-03-06 17:15:30,759 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:15:30,871 - prepare data catalog - geodataframe - DEBUG - Clip intersects [40.160, -3.000, 41.570, -1.660] (EPSG:4326)
+2024-03-06 17:15:30,897 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:15:30,969 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:15:30,983 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-06 17:15:36,060 - prepare data catalog - geodataframe - INFO - Reading osm_coastlines vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\osm_coastlines\osm_coastlines.gpkg
+2024-03-06 17:15:36,181 - prepare data catalog - geodataframe - DEBUG - Clip intersects [40.160, -3.000, 41.570, -1.660] (EPSG:4326)
+2024-03-06 17:15:36,262 - prepare data catalog - regulargrid - INFO - 8 gaps outside valid elevation range < 10.0 km2.
+2024-03-06 17:15:36,266 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-06 17:15:36,279 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-07 15:14:31,886 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:14:31,889 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:21:18,104 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:21:18,105 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:21:22,710 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:21:22,841 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.789, -0.269] (epsg:4326))
+2024-03-07 15:21:23,457 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:21:23,461 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 19130 cells
+2024-03-07 15:23:41,615 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:23:41,616 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:23:45,400 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:23:45,516 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.763, -0.283] (epsg:4326))
+2024-03-07 15:23:45,913 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:23:45,917 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 2884 cells
+2024-03-07 15:24:05,558 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-07 15:24:05,559 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-07 15:24:11,058 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-07 15:24:11,215 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-07 15:24:11,723 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-07 15:24:11,727 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-07 15:24:49,711 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-07 15:24:49,716 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-07 15:24:53,509 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-07 15:24:53,518 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-07 15:24:53,554 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-07 15:26:52,660 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:27:33,735 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:27:43,167 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-07 15:32:05,043 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
