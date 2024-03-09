@@ -55,3 +55,27 @@ osm_coastlines:
     source_url: https://osmdata.openstreetmap.de/data/coastlines.html
     source_version: 1.0
   path: osm_coastlines\osm_coastlines.gpkg
+merit_hydro:
+  crs: 4326
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: topography
+    paper_doi: 10.1029/2019WR024873
+    paper_ref: Yamazaki et al. (2019)
+    source_license: CC-BY-NC 4.0 or ODbL 1.0
+    source_url: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro
+    source_version: 1.0
+  path: merit_hydro\{variable}.tif
+grwl_mask:
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: hydrography
+    paper_doi: 10.1126/science.aat0636
+    paper_ref: Allen and Pavelsky (2018)
+    source_license: CC BY 4.0
+    source_url: https://doi.org/10.5281/zenodo.1297434
+    source_version: 1.01
+  nodata: 0
+  path: grwl_mask_garissa.tif
