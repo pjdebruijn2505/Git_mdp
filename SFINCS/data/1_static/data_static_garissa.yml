@@ -78,4 +78,4 @@ grwl_mask:
     source_url: https://doi.org/10.5281/zenodo.1297434
     source_version: 1.01
   nodata: 0
-  path: grwl_mask_garissa.tif
+  path: grwl_rivermask\grwl_mask_raster_tana.tif
