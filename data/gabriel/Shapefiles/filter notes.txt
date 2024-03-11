@@ -1,0 +1,4 @@
+filtered on:
+- Tana basin
+- Daily measurements
+- Rating curves available

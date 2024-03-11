@@ -384,3 +384,424 @@
 2024-03-09 20:30:07,244 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
 2024-03-09 20:30:07,417 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
 2024-03-09 20:30:07,523 - prepare data catalog - sfincs - INFO - Found 11 river inflow points.
+2024-03-10 09:23:31,191 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-10 09:23:31,192 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-10 09:23:35,177 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 09:23:35,278 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 09:23:35,728 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 09:23:35,732 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 09:23:36,794 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-10 09:23:36,798 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-10 09:23:38,787 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 09:23:38,807 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 09:23:38,824 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 09:23:38,858 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 09:23:43,228 - prepare data catalog - sfincs - INFO - Found 11 river inflow points.
+2024-03-10 11:45:12,667 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:45:12,688 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:45:12,707 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:45:12,742 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:45:12,866 - prepare data catalog - sfincs - INFO - Found 3 river inflow points.
+2024-03-10 11:45:12,873 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:45:12,873 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 11:45:24,258 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:45:24,273 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:45:24,291 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:45:24,332 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:45:24,451 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 11:45:24,458 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:45:24,459 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 11:53:56,871 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:53:56,883 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:53:56,887 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:53:56,930 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:53:57,087 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 11:53:57,087 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:53:57,087 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 11:53:57,103 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:53:57,103 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:53:57,127 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:53:57,151 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:53:57,259 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 11:54:56,759 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:54:56,772 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:54:56,785 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:54:56,821 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:54:56,969 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 11:54:56,969 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:54:56,969 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 11:54:56,984 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:54:57,001 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:54:57,011 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:54:57,034 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:54:57,167 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 11:57:59,380 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:57:59,392 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:57:59,406 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:57:59,440 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:57:59,588 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 11:57:59,588 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:57:59,588 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 11:57:59,604 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:57:59,617 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:57:59,617 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:57:59,658 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:57:59,782 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 11:58:42,351 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:58:42,363 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:58:42,375 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:58:42,406 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:58:42,513 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 11:58:42,513 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 11:58:42,528 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 11:58:42,547 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 11:58:42,549 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 11:58:42,578 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 11:58:42,714 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:01:41,174 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:01:41,185 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:01:41,205 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:01:41,248 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:01:41,375 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:01:41,375 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:01:41,391 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:01:41,408 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:01:41,411 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:01:41,449 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:01:46,085 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:05:13,297 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:05:13,309 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:05:13,321 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:05:13,354 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:05:13,498 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:05:13,513 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:05:13,514 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 12:09:44,953 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:09:44,965 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:09:44,980 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:09:45,009 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:09:45,121 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:09:45,136 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:09:45,137 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 12:09:45,137 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 12:09:45,171 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:10:34,954 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:10:34,970 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:10:34,988 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:10:35,022 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:10:35,133 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:10:35,150 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:10:35,150 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 12:10:35,150 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 12:10:35,207 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:15:58,650 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:15:58,691 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:15:58,759 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 12:15:58,763 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 12:17:25,757 - prepare data catalog - data_catalog - INFO - Parsing data catalog from data\1_static\data_static_garissa.yml
+2024-03-10 12:18:11,160 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:18:11,196 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:18:11,245 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 12:18:11,247 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 12:18:11,607 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:18:44,617 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:18:44,652 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:18:44,697 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 12:18:44,700 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 12:18:45,120 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:19:11,952 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:19:11,996 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:19:12,050 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 12:19:12,056 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 12:19:12,434 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 12:20:39,102 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:20:51,473 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:21:01,287 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:21:09,518 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:21:17,560 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:21:17,572 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:21:17,585 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:21:17,619 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:21:17,730 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:21:17,736 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:21:17,738 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 12:21:17,739 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 12:21:17,779 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:22:05,192 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 12:22:05,204 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 12:22:05,220 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 12:22:05,261 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 12:22:05,418 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 12:22:05,425 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 12:22:05,426 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 12:22:05,427 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 12:22:05,467 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 12:23:13,175 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:23:18,320 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:23:31,369 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:23:35,615 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:23:39,524 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 12:23:51,863 - prepare data catalog - regulargrid - INFO - 91 gaps outside valid elevation range < 10.0 km2.
+2024-03-10 12:23:51,868 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-10 12:23:51,896 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-10 12:23:59,252 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-10 12:23:59,259 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-10 12:23:59,278 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-03-10 12:24:06,555 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:01:52,017 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-10 15:01:52,017 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-10 15:01:55,642 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 15:01:55,742 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:01:56,150 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 15:01:56,155 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 15:01:56,406 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 15:01:57,382 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-10 15:01:57,382 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-10 15:01:59,466 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:01:59,950 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:01:59,973 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:01:59,988 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:02:00,033 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:02:04,572 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:02:04,637 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:02:04,638 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 15:02:04,683 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 15:04:21,530 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:04:21,544 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:04:21,568 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:04:21,630 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:04:21,804 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:04:21,811 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:04:21,811 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:04:21,814 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 15:04:21,851 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 15:04:32,306 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:04:32,312 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:04:32,335 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:04:32,381 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:04:32,506 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:04:32,522 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:04:32,522 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:04:32,522 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.516, -0.605, 39.745, -0.293] (EPSG:4326)
+2024-03-10 15:04:32,556 - prepare data catalog - sfincs - INFO - Found 0 valid river outflow points.
+2024-03-10 15:05:17,226 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:05:17,238 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:05:17,243 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:05:17,283 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:05:17,384 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:05:17,406 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:05:17,406 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:05:24,117 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:05:26,162 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:05:26,175 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:05:26,187 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:05:26,220 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:05:26,320 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:05:26,337 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:05:26,338 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:05:26,371 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:05:46,491 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-10 15:05:46,507 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-10 15:05:49,500 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 15:05:49,576 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:05:49,870 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-10 15:05:49,870 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-10 15:05:50,078 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 15:05:50,941 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-10 15:05:50,941 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-10 15:05:52,926 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:05:53,446 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:05:53,458 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:05:53,471 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:05:53,498 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:05:57,845 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:05:57,903 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:06:28,353 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:06:28,362 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:06:28,384 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:06:28,423 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:06:28,538 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:06:28,554 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:06:28,554 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:06:36,766 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:06:42,848 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:06:42,861 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:06:42,875 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:06:42,914 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:06:43,043 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:06:43,045 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:06:43,045 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:06:43,099 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:08:15,711 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:08:15,717 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:08:15,745 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:08:15,783 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:08:15,950 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:08:15,957 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:08:15,957 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:08:23,056 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:08:24,563 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:08:24,568 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:08:24,590 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:08:24,624 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:08:24,768 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:08:24,768 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:08:24,768 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:08:24,821 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:08:39,297 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:08:39,309 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:08:39,322 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:08:39,355 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:08:39,504 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:08:39,520 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:08:39,520 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:08:47,746 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:08:47,759 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:08:47,777 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:08:47,814 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:08:48,006 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:08:48,007 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:08:48,007 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:08:57,727 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:08:57,739 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:08:57,745 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:08:57,791 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:08:57,915 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:08:57,932 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:08:57,932 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:09:10,470 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:09:10,482 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:09:10,500 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:09:10,532 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:09:10,631 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:09:10,647 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:09:10,647 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:09:41,842 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:09:43,156 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:09:43,168 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:09:43,180 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:09:43,214 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:09:43,355 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:09:43,372 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:09:43,372 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:09:43,417 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:09:49,712 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:09:49,726 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:09:49,740 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:09:49,776 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:09:49,875 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:09:49,891 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:09:49,891 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:09:54,934 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:09:56,441 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-10 15:09:56,454 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-10 15:09:56,465 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-10 15:09:56,500 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:09:56,608 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-10 15:09:56,610 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-10 15:09:56,610 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-10 15:09:56,643 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-10 15:14:21,759 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:16:03,357 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-10 15:47:17,546 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 15:47:17,582 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:47:17,598 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 15:47:17,629 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 15:47:17,649 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 15:47:17,653 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-10 15:47:17,705 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-10 17:05:22,558 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 17:05:22,826 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 17:05:22,848 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 17:05:22,872 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 17:05:22,897 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 17:05:22,906 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-10 17:05:23,009 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-10 17:06:24,333 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-10 17:06:24,379 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 17:06:24,396 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 17:06:24,421 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-10 17:06:24,451 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-10 17:06:24,456 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-10 17:06:24,493 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-11 10:02:47,320 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-11 10:02:47,322 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-11 10:02:53,883 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 10:02:54,017 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:02:54,486 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-11 10:02:54,490 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-11 10:02:54,750 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 10:02:56,831 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-11 10:02:56,835 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-11 10:05:43,050 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-11 10:05:43,093 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-11 10:05:43,141 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-11 10:05:43,199 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:05:49,446 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-11 10:06:00,508 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-11 10:06:00,530 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-11 10:06:00,559 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-11 10:06:00,621 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:06:00,853 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-11 10:06:00,866 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-11 10:06:00,867 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-11 10:06:16,673 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-11 10:06:16,701 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-11 10:06:16,729 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-11 10:06:16,784 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:06:16,957 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-11 10:06:16,970 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-11 10:06:16,971 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-11 10:06:17,050 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-11 10:06:26,438 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-11 10:06:26,456 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-11 10:06:26,480 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-11 10:06:26,528 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:06:26,693 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-11 10:06:26,702 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-03-11 10:06:26,703 - prepare data catalog - model_api - WARNING - Replacing geom: rivers_inflow
+2024-03-11 10:06:26,758 - prepare data catalog - sfincs - INFO - Boundary cells (n=46) updated around src points.
+2024-03-11 10:06:26,815 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-11 10:08:36,750 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 10:08:36,784 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:08:36,796 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 10:08:36,841 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 10:08:36,861 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 10:08:36,866 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-11 10:08:36,895 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-11 11:11:00,094 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-11 11:11:00,095 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-11 11:11:03,318 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 11:11:03,390 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:11:03,741 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-03-11 11:11:03,741 - prepare data catalog - sfincs - WARNING - Interpolate elevation at 770 cells
+2024-03-11 11:11:03,991 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 11:11:04,809 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-11 11:11:04,809 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-11 11:11:06,827 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-11 11:11:06,843 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-11 11:11:06,858 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-11 11:11:06,879 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:11:11,107 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-11 11:11:11,165 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-11 11:13:50,407 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 11:13:50,445 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:13:50,459 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:13:50,470 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:13:50,487 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:13:50,487 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-11 11:13:50,520 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-11 11:14:09,029 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 11:14:09,063 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:14:09,077 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:14:09,080 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:14:09,090 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:14:09,108 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-11 11:14:09,125 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)
+2024-03-11 11:14:22,767 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_garissa.tif
+2024-03-11 11:14:22,801 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:14:22,814 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:14:22,826 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_garissa.tif
+2024-03-11 11:14:22,833 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.516, -0.605, 39.745, -0.293] (epsg:4326))
+2024-03-11 11:14:22,845 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-03-11 11:14:22,864 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4397888.469, -68303.722, 4425395.792, -31589.703] (EPSG:3857)

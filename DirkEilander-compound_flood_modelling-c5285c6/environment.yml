@@ -41,6 +41,7 @@ dependencies:
   - scipy
   - toml
   - xarray
+  - rioxarray
   - zarr
   - pip:
     - matplotlib_scalebar
