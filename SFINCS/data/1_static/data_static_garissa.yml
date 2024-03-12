@@ -80,3 +80,15 @@ grwl_mask:
     source_version: 1.01
   nodata: 0
   path: grwl_rivermask\grwl_mask_raster_tana.tif
+gcn250:
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: soil
+    paper_doi: 10.1038/s41597-019-0155-x
+    paper_ref: Jaafar et al. (2019)
+    source_license: CC BY 4.0
+    source_url: https://doi.org/10.6084/m9.figshare.7756202.v1
+    source_version: v1
+  nodata: 255
+  path: gcn250/{variable}.tif
