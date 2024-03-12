@@ -1,0 +1,53 @@
+gcn250:
+  data_type: RasterDataset
+  path: c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\gcn250\{variable}.tif
+  driver: raster
+  nodata: 255
+  meta:
+    category: soil
+    paper_doi: 10.1038/s41597-019-0155-x
+    paper_ref: Jaafar et al. (2019)
+    source_license: CC BY 4.0
+    source_url: https://doi.org/10.6084/m9.figshare.7756202.v1
+    source_version: v1
+merit_hydro:
+  data_type: RasterDataset
+  path: c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+  driver: raster
+  meta:
+    category: topography
+    paper_doi: 10.1029/2019WR024873
+    paper_ref: Yamazaki et al. (2019)
+    source_license: CC-BY-NC 4.0 or ODbL 1.0
+    source_url: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro
+    source_version: 1.0
+  crs: 4326
+srtm30:
+  data_type: RasterDataset
+  path: c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_tana.tif
+  driver: raster
+  nodata: 0
+  meta:
+    category: topography
+    source_licence: ODbL 1.0
+    source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
+    source_version: 1.0
+  crs: 4326
+vito:
+  data_type: RasterDataset
+  path: c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_tana1.tif
+  driver: raster
+  meta:
+    category: landuse
+    paper_doi: 10.5281/zenodo.3939038
+    paper_ref: Buchhorn et al (2020)
+    source_url: https://land.copernicus.eu/global/products/lc
+    source_version: v2.0.2
+  crs: 4326
+vito_mapping.csv:
+  data_type: DataFrame
+  provider: user
+  path: c:\Users\pjdeb\anaconda3\envs\hydromt-sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+  driver: csv
+  driver_kwargs:
+    index_col: 0
