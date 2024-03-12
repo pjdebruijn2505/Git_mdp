@@ -2,10 +2,10 @@
 meta:
     name: Narok
 narok1:
-    path: datafiles/narok.DEM15Final.tif  
+    path: datafiles/narok.DEM15Final_test.tif  
     data_type: RasterDataset
     driver: raster
-    crs: 32736
+    crs: 4326
     meta:
         category: topography
     nodata: 1850
