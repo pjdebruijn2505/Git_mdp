@@ -67,7 +67,7 @@ merit_hydro:
     source_license: CC-BY-NC 4.0 or ODbL 1.0
     source_url: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro
     source_version: 1.0
-  path: merit_hydro\s05e035\{variable}.tif
+  path: merit_hydro\{variable}.tif
 grwl_mask:
   data_type: RasterDataset
   driver: raster
