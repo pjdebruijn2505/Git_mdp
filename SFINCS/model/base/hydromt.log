@@ -2888,3 +2888,40 @@
 2024-03-21 15:16:57,781 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
 2024-03-21 15:16:57,781 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
 2024-03-21 15:16:57,781 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-03-22 09:10:04,214 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\sfincs.dep
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-03-22 09:10:04,930 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-03-22 09:10:04,931 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-03-22 11:52:34,304 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-22 11:52:34,307 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-22 11:53:02,562 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-22 11:53:02,687 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\elevtn.tif
+2024-03-22 11:53:02,712 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-22 11:53:02,889 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\rivwth.tif
+2024-03-22 11:53:02,992 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-22 11:53:03,089 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\upgrid.tif
+2024-03-22 11:53:03,211 - prepare data catalog - rasterdataset - INFO - Reading srtm30 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\srtm30\STRM30DEM_tana.tif
+2024-03-22 11:53:03,317 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.481, -0.600, 39.745, -0.230] (epsg:4326))
+2024-03-22 11:53:04,196 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: bilinear
+2024-03-22 11:53:04,913 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-03-22 11:53:04,918 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-03-22 11:53:04,995 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-03-22 11:53:05,016 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-03-22 11:53:05,037 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-03-22 11:53:05,096 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.481, -0.600, 39.745, -0.230] (epsg:4326))
+2024-03-22 11:53:12,684 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-03-22 11:53:12,800 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-03-22 12:43:29,450 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\hydromt.log.
+2024-03-22 12:43:29,451 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-03-22 14:39:18,820 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base\sfincs.dep
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-03-22 14:39:19,402 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
