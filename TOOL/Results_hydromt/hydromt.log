@@ -411,3 +411,11 @@
 2024-02-18 14:46:57,559 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
 2024-02-29 14:39:30,401 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
 2024-02-29 14:55:36,089 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
+2024-03-12 15:27:03,517 - hydromt_sfincs.sfincs - sfincs - WARNING - zsini not in states, skipping
+2024-03-12 15:50:01,916 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-03-12 15:50:01,916 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-03-12 15:50:01,916 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-03-12 15:50:01,917 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-03-12 15:50:01,917 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-03-12 15:50:01,917 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-03-12 15:50:01,917 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
