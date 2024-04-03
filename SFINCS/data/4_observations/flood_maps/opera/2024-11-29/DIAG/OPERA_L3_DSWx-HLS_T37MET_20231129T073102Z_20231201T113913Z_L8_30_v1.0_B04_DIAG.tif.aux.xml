@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Diagnostic layer (DIAG)</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">11000</MDI>
+      <MDI key="STATISTICS_MEAN">1410.3340241796</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">3510.4987902192</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">86.06</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

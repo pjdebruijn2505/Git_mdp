@@ -18,6 +18,7 @@ srtm30:
     source_url: https://opendata.rcmrd.org/datasets/rcmrd::kenya-srtm-dem-30meters/about
     source_version: 1.0
   path: srtm30\STRM30DEM_tana.tif
+  nodata: 0
 rivers_lin2019_v1:
   data_type: GeoDataFrame
   driver: vector
@@ -28,7 +29,7 @@ rivers_lin2019_v1:
     source_license: CC-BY-NC 4.0
     source_url: https://zenodo.org/record/3552776#.YVbOrppByUk
     source_version: 1
-  path: data_river_lin\rivers_lin_tana.gpkg
+  path: data_river_lin\tana_lin_crs_reprojected.geojson
   rename:
     width_m: rivwth
     Q2: qbankfull
@@ -42,7 +43,7 @@ vito:
     paper_ref: Buchhorn et al (2020)
     source_url: https://land.copernicus.eu/global/products/lc
     source_version: v2.0.2
-  path: landuse\landuse_vito_tana.tif
+  path: landuse\landuse_vito_tana1.tif
 osm_coastlines:
   crs: 4326
   data_type: GeoDataFrame
@@ -55,3 +56,39 @@ osm_coastlines:
     source_url: https://osmdata.openstreetmap.de/data/coastlines.html
     source_version: 1.0
   path: osm_coastlines\osm_coastlines.gpkg
+merit_hydro:
+  crs: 4326
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: topography
+    paper_doi: 10.1029/2019WR024873
+    paper_ref: Yamazaki et al. (2019)
+    source_license: CC-BY-NC 4.0 or ODbL 1.0
+    source_url: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro
+    source_version: 1.0
+  path: merit_hydro\{variable}.tif
+grwl_mask:
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: hydrography
+    paper_doi: 10.1126/science.aat0636
+    paper_ref: Allen and Pavelsky (2018)
+    source_license: CC BY 4.0
+    source_url: https://doi.org/10.5281/zenodo.1297434
+    source_version: 1.01
+  nodata: 0
+  path: grwl_rivermask\grwl_mask_raster_tana.tif
+gcn250:
+  data_type: RasterDataset
+  driver: raster
+  meta:
+    category: soil
+    paper_doi: 10.1038/s41597-019-0155-x
+    paper_ref: Jaafar et al. (2019)
+    source_license: CC BY 4.0
+    source_url: https://doi.org/10.6084/m9.figshare.7756202.v1
+    source_version: v1
+  nodata: 255
+  path: gcn250/{variable}.tif
