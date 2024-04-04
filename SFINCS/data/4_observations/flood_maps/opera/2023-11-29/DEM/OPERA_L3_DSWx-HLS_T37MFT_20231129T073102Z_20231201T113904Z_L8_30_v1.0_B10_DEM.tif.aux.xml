@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Digital elevation model (DEM)</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">172.865234375</MDI>
+      <MDI key="STATISTICS_MEAN">-0.43239424658516</MDI>
+      <MDI key="STATISTICS_MINIMUM">-30.521236419678</MDI>
+      <MDI key="STATISTICS_STDDEV">34.899787974339</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
