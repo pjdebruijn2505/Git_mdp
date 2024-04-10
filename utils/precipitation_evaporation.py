@@ -43,7 +43,7 @@ def precipitation_evaporation(years, offset, season = True, plot = True):
 # We create a precipitation time series of years *365 time steps and predict the output of the reservoir
 
     #reproducibility
-    np.random.seed(42)
+    #np.random.seed(42)
     n = years * 365  # daily data
 
     if (season == True):
