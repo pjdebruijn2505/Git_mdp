@@ -1,0 +1,4 @@
+2024-04-10 14:20:15,603 - prepare data catalog - log - DEBUG - Writing log messages to new file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\base_garissa\hydromt.log.
+2024-04-10 14:20:15,604 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-04-10 14:25:07,019 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\regions\region_garissa_2km_buffer.geojson
+2024-04-10 14:25:07,212 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [4405409.89783  -60608.17479 4420462.84213  -42354.37785] (crs = EPSG:3857)'}
