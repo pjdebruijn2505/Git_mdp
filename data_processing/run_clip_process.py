@@ -1,5 +1,7 @@
+start_time = time.time()
+
 try:
-    print('start imports')
+    #print('start imports')
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -49,6 +51,8 @@ try:
     print(f"Welcome {username}, have a wondeful day on your {OS_type} machine. Your data should be located in {data_path}")
     print(data_path)
 
+    average_evap = 0.41639290443606647
+
     data_files = glob.glob(os.path.join(data_path, '*.nc'))
     data_path_evap = os.path.join(evaporation, 'kriging_results_evap.nc')
     print(data_files)
@@ -91,9 +95,9 @@ try:
 
         # Open the GeoPackage file
         geopackage_gdf = gpd.read_file(geopackage_file)
+        geopackage_gdf = geopackage_gdf.to_crs('EPSG:4326')
 
-
-        #geopackage_gdf = geopackage_gdf.to_crs('EPSG:32737')
+        # geopackage_gdf = geopackage_gdf.to_crs('EPSG:32737')
         # Open the NetCDF file
         with rasterio.open(netCDF_file) as src:
             # Read the entire timeseries data
@@ -101,21 +105,34 @@ try:
 
             # Clip the NetCDF data to the GeoPackage boundaries
             clipped_data, transform = mask(src, geopackage_gdf.geometry, crop=True, nodata=np.nan)
-            #clipped_data_evap, transform_evap = mask(src_evap, geopackage_gdf_evap.geometry, crop=True, nodata=np.nan)
+            # clipped_data_evap, transform_evap = mask(src_evap, geopackage_gdf_evap.geometry, crop=True, nodata=np.nan)
 
             # Calculate the area of each clipped geometry
+            averaged_clipped_data = np.nanmean(clipped_data, axis=(1, 2))
 
             clipped_areas = geopackage_gdf.geometry.area
 
             # Create an xarray Dataset from the clipped data
-            clipped_dataset = xr.DataArray(
+            '''clipped_dataset = xr.DataArray(
                 clipped_data,
                 dims=["time", "y", "x"],
                 coords={"time": np.arange(clipped_data.shape[0]), "y": np.arange(clipped_data.shape[1]), "x": np.arange(clipped_data.shape[2])}
+            ).to_dataset(name="precipitation")'''
+
+            clipped_dataset = xr.DataArray(
+                averaged_clipped_data,
+                dims=["time"],
+                coords={"time": np.arange(averaged_clipped_data.shape[0])}
             ).to_dataset(name="precipitation")
 
-                # Add the clipped areas as a new coordinate variable to the dataset
+            # Add the clipped areas as a new coordinate variable to the dataset
             clipped_dataset.coords['area_m2'] = (('gdf'), clipped_areas)
+
+            average_evap_da = xr.DataArray([average_evap] * clipped_dataset.dims['time'], dims=["time"],
+                                           coords={"time": clipped_dataset.coords["time"]})
+
+            # Add this DataArray to your existing dataset as a new variable
+            clipped_dataset['average_evap'] = average_evap_da
 
         return {shapefile_name: clipped_dataset}
 
@@ -154,5 +171,11 @@ try:
         multiprocessing.freeze_support()  # Only needed if you plan to create a bundled executable
         main()
 
+
+
 except Exception as e:
     print(f"An error occurred: {e}")
+
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"Execution time: {execution_time} seconds")
