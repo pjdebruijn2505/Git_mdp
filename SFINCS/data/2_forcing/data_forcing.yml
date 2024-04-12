@@ -1,0 +1,10 @@
+# Precipitation (?)
+
+# waterlevel, discharge
+wra_garissa:
+  data_type: DataFrame
+  path: ..\..\data_sens\wra\clean_data_mats\fixed_all_data_Garissa.csv
+  driver: csv
+  meta:
+    category: hydrography
+    unit: m, m3/s
