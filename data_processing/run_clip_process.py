@@ -160,19 +160,15 @@ try:
         end_time = time.time()
         print(f"Execution time: {end_time - start_time} seconds")
 
-        combined_dataset = xr.Dataset()
+
+
         for result_dict in results:
             for key, ds in result_dict.items():
-                # Prepare dataset for merging
-                # Assuming each dataset has 'precipitation' and 'average_evap' as variables
-                ds_expanded = ds.expand_dims('region')
-                ds_expanded['region'] = [key]  # Assign the region with the GeoPackage key as an identifier
+                filename = f"{key.replace('.gpkg', '')}.nc"  # Creating a filename for each dataset
+                file_location = os.path.join(data_path, filename)
+                ds.to_netcdf(file_location)
 
-                # Merge this expanded dataset into the combined dataset
-                combined_dataset = xr.merge([combined_dataset, ds_expanded], compat='no_conflicts')
 
-        # Save the combined dataset to a NetCDF file
-        combined_dataset.to_netcdf('processed_results.nc')
 
         return results
 
@@ -190,4 +186,4 @@ end_time = time.time()
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time} seconds")
 
-print(results)
+
