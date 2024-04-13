@@ -1,27 +1,30 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import xarray as xr
+import glob
+import platform
+import pathlib
+import os.path
+import netCDF4 as nc
+import geopandas as gpd
+import rasterio
+from rasterio.mask import mask
+from rasterio.errors import RasterioIOError
+from shapely.geometry import Point
+import time
+import json
+from scipy.spatial import cKDTree
+from concurrent.futures import ProcessPoolExecutor
+import multiprocessing
+from rasterio.crs import CRS
 start_time = time.time()
+
+
 
 try:
     #print('start imports')
-    import numpy as np
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import xarray as xr
-    import glob
-    import platform
-    import pathlib
-    import os.path
-    import netCDF4 as nc
-    import geopandas as gpd
-    import rasterio
-    from rasterio.mask import mask
-    from rasterio.errors import RasterioIOError
-    from shapely.geometry import Point
-    import time
-    import json
-    from scipy.spatial import cKDTree
-    from concurrent.futures import ProcessPoolExecutor
-    import multiprocessing
-    from rasterio.crs import CRS
+
 
 
 
@@ -150,15 +153,6 @@ try:
 
     def main():
 
-
-        # Helper function for multiprocessing to replace lambda
-
-
-
-
-        # Example usage
-        #data_files = ['path/to/your/netCDF.nc']  # Adjust the path as necessary
-        #shape_files = shape_files  # Adjust paths as necessary
         netCDF_file = data_files[0]
         start_time = time.time()
         results = process_files(netCDF_file, shape_files)
@@ -166,10 +160,26 @@ try:
         end_time = time.time()
         print(f"Execution time: {end_time - start_time} seconds")
 
+        combined_dataset = xr.Dataset()
+        for result_dict in results:
+            for key, ds in result_dict.items():
+                # Prepare dataset for merging
+                # Assuming each dataset has 'precipitation' and 'average_evap' as variables
+                ds_expanded = ds.expand_dims('region')
+                ds_expanded['region'] = [key]  # Assign the region with the GeoPackage key as an identifier
+
+                # Merge this expanded dataset into the combined dataset
+                combined_dataset = xr.merge([combined_dataset, ds_expanded], compat='no_conflicts')
+
+        # Save the combined dataset to a NetCDF file
+        combined_dataset.to_netcdf('processed_results.nc')
+
+        return results
+
 
     if __name__ == '__main__':
         multiprocessing.freeze_support()  # Only needed if you plan to create a bundled executable
-        main()
+        results = main()
 
 
 
@@ -179,3 +189,5 @@ except Exception as e:
 end_time = time.time()
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time} seconds")
+
+print(results)
