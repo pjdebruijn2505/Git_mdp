@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Binary Water (BWTR)</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">178.38797814208</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">115.32073244168</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">5.44</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

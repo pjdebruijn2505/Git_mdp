@@ -1,0 +1,62 @@
+2024-04-16 09:52:55,846 - prepare data catalog - log - DEBUG - Writing log messages to new file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km\hydromt.log.
+2024-04-16 09:52:55,847 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-04-16 09:52:55,862 - prepare data catalog - model_api - DEBUG - Setting model config options.
+2024-04-16 09:52:55,891 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\regions\region_garissa_5km_buffer.geojson
+2024-04-16 09:52:55,982 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [4402409.89783  -63608.17479 4423462.84213  -39354.37785] (crs = EPSG:3857)'}
+2024-04-16 09:53:01,833 - prepare data catalog - rasterdataset - INFO - Reading fabdem raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\fabdem\fabdem.tif
+2024-04-16 09:53:01,922 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.548, -0.571, 39.737, -0.353] (epsg:4326))
+2024-04-16 09:53:02,274 - prepare data catalog - merge - DEBUG - Reprojection method of first dataset is: average
+2024-04-16 09:53:02,284 - prepare data catalog - geodataframe - INFO - Reading  vector data from data\1_static\regions\region_garissa_5km_buffer.geojson
+2024-04-16 09:53:02,309 - prepare data catalog - geodataframe - DEBUG - Clip intersects [39.548, -0.571, 39.737, -0.354] (EPSG:4326)
+2024-04-16 09:53:02,341 - prepare data catalog - regulargrid - INFO - 0 gaps outside valid elevation range < 10.0 km2.
+2024-04-16 09:53:02,345 - prepare data catalog - sfincs - INFO - Derive region geometry based on active cells.
+2024-04-16 09:53:02,360 - prepare data catalog - model_api - WARNING - Replacing geom: region
+2024-04-16 09:53:02,382 - prepare data catalog - rasterdataset - INFO - Reading merit_hydro raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\{variable}.tif
+2024-04-16 09:53:02,405 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\flwdir.tif
+2024-04-16 09:53:02,426 - prepare data catalog - io - WARNING - nodata value missing for c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\merit_hydro\uparea.tif
+2024-04-16 09:53:02,453 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.548, -0.571, 39.737, -0.353] (epsg:4326))
+2024-04-16 09:53:07,354 - prepare data catalog - sfincs - INFO - Found 2 river inflow points.
+2024-04-16 09:53:07,955 - prepare data catalog - regulargrid - DEBUG - outflow (mask=3) boundary cells reset.
+2024-04-16 09:53:08,514 - prepare data catalog - rasterdataset - INFO - Reading fabdem raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\fabdem\fabdem.tif
+2024-04-16 09:53:08,540 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.548, -0.571, 39.737, -0.353] (epsg:4326))
+2024-04-16 09:53:08,551 - prepare data catalog - rasterdataset - INFO - Reading vito raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\landuse\landuse_vito_tana1.tif
+2024-04-16 09:53:08,585 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.548, -0.571, 39.737, -0.353] (epsg:4326))
+2024-04-16 09:53:08,588 - prepare data catalog - dataframe - INFO - Reading  csv data from c:\Users\pjdeb\anaconda3\envs\sfincs\lib\site-packages\hydromt_sfincs\data\lulc\vito_mapping.csv
+2024-04-16 09:53:08,611 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4401410.000, -64608.000, 4424510.000, -38308.000] (EPSG:3857)
+2024-04-16 09:53:08,622 - prepare data catalog - geodataframe - INFO - Reading grwl_mask_vector vector data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\grwl_rivermask\grwl_mask_vector_tana.gpkg
+2024-04-16 09:53:09,445 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4402410.000, -63608.000, 4423510.000, -39308.000] (EPSG:3857)
+2024-04-16 09:53:09,468 - prepare data catalog - subgrid - INFO - Number of regular cells in a block : 500
+2024-04-16 09:53:09,469 - prepare data catalog - subgrid - INFO - Number of blocks in n direction    : 1
+2024-04-16 09:53:09,469 - prepare data catalog - subgrid - INFO - Number of blocks in m direction    : 1
+2024-04-16 09:53:09,470 - prepare data catalog - subgrid - INFO - Grid size of flux grid            : dx=100.0, dy=100.0
+2024-04-16 09:53:09,470 - prepare data catalog - subgrid - INFO - Grid size of subgrid pixels       : dx=25.0, dy=25.0
+2024-04-16 09:53:09,471 - prepare data catalog - subgrid - INFO - block 1/1 -- col 0:210 | row 0:242
+2024-04-16 09:53:09,652 - prepare data catalog - subgrid - DEBUG - Burn rivers in bathymetry and manning data
+2024-04-16 09:53:10,854 - prepare data catalog - subgrid - DEBUG - Processing subgrid tables for 34975 active cells..
+2024-04-16 09:53:23,140 - prepare data catalog - utils - INFO - Building 2 overviews with average
+2024-04-16 09:53:23,614 - prepare data catalog - rasterdataset - INFO - Reading gcn250 raster data from c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\data\1_static\gcn250\{variable}.tif
+2024-04-16 09:53:23,740 - prepare data catalog - rasterdataset - DEBUG - Clip to [39.548, -0.571, 39.737, -0.353] (epsg:4326))
+2024-04-16 09:53:25,164 - prepare data catalog - dataframe - DEBUG - Slicing time dime (datetime.datetime(2023, 9, 1, 0, 0), datetime.datetime(2023, 12, 31, 0, 0))
+2024-04-16 09:53:25,206 - prepare data catalog - model_api - WARNING - Replacing forcing: dis
+2024-04-16 09:53:25,252 - prepare data catalog - geodataframe - DEBUG - Clip intersects [4402410.000, -63608.000, 4423510.000, -39308.000] (EPSG:3857)
+2024-04-16 09:53:25,287 - prepare data catalog - sfincs - INFO - Writing model data to c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km
+2024-04-16 09:53:25,290 - prepare data catalog - sfincs - DEBUG - Write binary map indices based on mask.
+2024-04-16 09:53:25,295 - prepare data catalog - sfincs - DEBUG - Write binary map files: ['msk', 'dep', 'scs'].
+2024-04-16 09:53:25,385 - prepare data catalog - sfincs - INFO - Write raster file(s) for grid to 'gis' subfolder
+2024-04-16 09:53:25,550 - prepare data catalog - sfincs - INFO - Write geom files
+2024-04-16 09:53:25,554 - prepare data catalog - sfincs - INFO - Write vector file(s) for geoms to 'gis' subfolder
+2024-04-16 09:53:25,619 - prepare data catalog - sfincs - INFO - Write forcing files
+2024-04-16 09:53:25,662 - prepare data catalog - sfincs - INFO - Write vector file(s) for forcing.dis to 'gis' subfolder
+2024-04-16 09:53:25,693 - prepare data catalog - sfincs - WARNING - zsini not in states, skipping
+2024-04-16 10:11:31,412 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km\sfincs.dep
+2024-04-16 10:11:32,482 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-16 10:11:32,482 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-16 10:11:32,482 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-16 10:11:32,482 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-16 10:11:32,483 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-16 10:11:32,483 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-16 10:11:32,483 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-16 10:15:13,855 - prepare data catalog - log - DEBUG - Appending log messages to file c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km\hydromt.log.
+2024-04-16 10:15:13,856 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
+2024-04-16 10:15:33,693 - prepare data catalog - geodataframe - INFO - Reading  vector data from ..\data\1_static\regions\region_garissa_5km_buffer.geojson
+2024-04-16 10:15:33,823 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [4402409.89783  -63608.17479 4423462.84213  -39354.37785] (crs = EPSG:3857)'}
