@@ -886,3 +886,35 @@
 2024-04-15 15:28:23,166 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
 2024-04-15 15:28:23,167 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
 2024-04-15 15:28:23,167 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-15 15:59:00,182 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth3m_srtm30_grid200\sfincs.dep
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-15 15:59:00,285 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-15 16:12:26,116 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth3m_srtm30_grid200\sfincs.dep
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-15 16:12:26,203 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-15 16:12:26,204 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-15 18:40:49,361 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth3m_srtm30_grid200\sfincs.dep
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-15 18:40:49,455 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-16 09:04:12,210 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth3m_srtm30_grid200\sfincs.dep
+2024-04-16 09:04:12,331 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-16 09:04:12,331 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-16 09:04:12,332 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-16 09:04:12,332 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-16 09:04:12,332 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-16 09:04:12,332 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-16 09:04:12,332 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
