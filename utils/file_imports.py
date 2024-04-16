@@ -26,7 +26,13 @@ def file_paths(root, TAHMO = False, WRA = False):
               f' the third one to {results[2]}. Animations will be put located in {results[3]}')
 
 
+    if WRA:
+        WRA_folder = os.path.join(root_path, 'WRA')
+        Garissa_folder = os.path.join(WRA_folder, 'Garissa_station')
+        other_stations = os.path.join(WRA_folder, 'other_stations')
 
+        results.append(Garissa_folder)
+        results.append(other_stations)
 
 
     if (len(results) == 0):
