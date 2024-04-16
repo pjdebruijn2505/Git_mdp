@@ -122,7 +122,7 @@ try:
         for result_dict in results:
             for key, ds in result_dict.items():
                 filename = f"{key.replace('.gpkg', '')}.nc"  # Creating a filename for each dataset
-                file_location = os.path.join(data_path, filename)
+                file_location = os.path.join(data_path, 'results', filename)
                 ds.to_netcdf(file_location)
 
         return results
