@@ -60,3 +60,19 @@
 2024-04-16 10:15:13,856 - prepare data catalog - model_api - INFO - Initializing sfincs model from hydromt_sfincs (v1.0.3).
 2024-04-16 10:15:33,693 - prepare data catalog - geodataframe - INFO - Reading  vector data from ..\data\1_static\regions\region_garissa_5km_buffer.geojson
 2024-04-16 10:15:33,823 - prepare data catalog - basin_mask - DEBUG - Parsed region (kind=geom): {'geom': 'GeoDataFrame [4402409.89783  -63608.17479 4423462.84213  -39354.37785] (crs = EPSG:3857)'}
+2024-04-16 12:11:33,343 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km\sfincs.dep
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-16 12:11:33,508 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-16 16:15:10,559 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth2m_fabdem_grid100_avg_buffer5km\sfincs.dep
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-16 16:15:10,840 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt

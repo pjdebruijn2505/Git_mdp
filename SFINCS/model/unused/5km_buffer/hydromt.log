@@ -2280,3 +2280,6 @@
 2024-03-22 15:53:10,963 - prepare data catalog - sfincs - INFO - Write forcing files
 2024-03-22 15:53:10,979 - prepare data catalog - sfincs - INFO - Write vector file(s) for forcing.dis to 'gis' subfolder
 2024-03-22 15:53:11,017 - prepare data catalog - sfincs - WARNING - zsini not in states, skipping
+2024-04-16 13:57:27,466 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\unused\5km_buffer\sfincs.dep
+2024-04-16 13:57:34,290 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\unused\5km_buffer\sfincs.dep
+2024-04-16 13:58:00,707 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\unused\5km_buffer\sfincs.dep
