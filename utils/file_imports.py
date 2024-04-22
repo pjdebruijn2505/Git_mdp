@@ -23,7 +23,7 @@ def file_paths(root, TAHMO = False, WRA = False):
         results.append(results_animations)
 
         print(f'The first entry is pointing to {results[0]}, the second one to {results[1]} and'
-              f' the third one to {results[2]}. Animations will be put located in {results[3]}')
+              f' the third one to {results[2]}. Animations will be located in {results[3]}')
 
 
     if WRA:
