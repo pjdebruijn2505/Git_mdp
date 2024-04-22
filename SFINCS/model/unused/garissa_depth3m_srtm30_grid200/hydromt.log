@@ -958,3 +958,11 @@
 2024-04-19 12:42:15,628 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
 2024-04-19 12:42:15,628 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
 2024-04-19 12:42:15,628 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
+2024-04-19 14:37:29,563 - hydromt_sfincs.sfincs - sfincs - WARNING - depfile not found at c:\Users\pjdeb\OneDrive\Documenten\Universiteit\CT 5\MDP\Git\MDP\SFINCS\model\garissa_depth3m_srtm30_grid200\sfincs.dep
+2024-04-19 14:37:29,687 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: inp
+2024-04-19 14:37:29,687 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: msk
+2024-04-19 14:37:29,687 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zb
+2024-04-19 14:37:29,687 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zs
+2024-04-19 14:37:29,687 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: zsmax
+2024-04-19 14:37:29,688 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: total_runtime
+2024-04-19 14:37:29,688 - hydromt_sfincs.sfincs - model_api - WARNING - Replacing result: average_dt
