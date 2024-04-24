@@ -11,7 +11,7 @@ import time
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
 
-#Long code, keeps track of passed time for future reference
+#Long runtime, keeps track of passed time for future reference
 start_time = time.time()
 
 #Prevent program from crashing outright.

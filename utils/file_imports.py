@@ -1,7 +1,7 @@
 import os.path
 import warnings
 
-def file_paths(root, TAHMO = False, WRA = False):
+def file_paths(root, TAHMO = False, WRA = False, catchments = False):
 
     # Place here the path to the root folder of the dataset
     root_folder = root.parent.parent
@@ -22,8 +22,8 @@ def file_paths(root, TAHMO = False, WRA = False):
         results.append(interpolated_folder)
         results.append(results_animations)
 
-        print(f'The first entry is pointing to {results[0]}, the second one to {results[1]} and'
-              f' the third one to {results[2]}. Animations will be located in {results[3]}')
+        print(f'The first entry is pointing to {results[-4]}, the second one to {results[-3]} and'
+              f' the third one to {results[-2]}. Animations will be located in {results[-1]}')
 
 
     if WRA:
@@ -34,6 +34,15 @@ def file_paths(root, TAHMO = False, WRA = False):
         results.append(Garissa_folder)
         results.append(other_stations)
 
+        print(f'The first entry is pointing to {results[-2]}, the second one to {results[-1]} and')
+
+
+    if catchments:
+        tana_sub_catchments = os.path.join(root_path, 'catchments')
+        tana_netCDF = os.path.join(tana_sub_catchments, 'results')
+
+        results.append(tana_sub_catchments)
+        results.append(tana_netCDF)
 
     if (len(results) == 0):
         warnings.warn("Warning, the resulting set of datapaths is empty. Make sure you specfiy the type of data you"
