@@ -34,7 +34,7 @@ def file_paths(root, TAHMO = False, WRA = False, catchments = False):
         results.append(Garissa_folder)
         results.append(other_stations)
 
-        print(f'The first entry is pointing to {results[-2]}, the second one to {results[-1]} and')
+        print(f'The {len(results)-1} entry is pointing to {results[-2]}, the {len(results)} one to {results[-1]}')
 
 
     if catchments:
@@ -43,6 +43,8 @@ def file_paths(root, TAHMO = False, WRA = False, catchments = False):
 
         results.append(tana_sub_catchments)
         results.append(tana_netCDF)
+        
+        print(f'The {len(results)-1} entry is pointing to {results[-2]}, the {len(results)} one to {results[-1]} and')
 
     if (len(results) == 0):
         warnings.warn("Warning, the resulting set of datapaths is empty. Make sure you specfiy the type of data you"

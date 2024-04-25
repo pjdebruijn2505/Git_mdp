@@ -24,8 +24,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#contact">Data</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    
   </ol>
 </details>
 
@@ -59,7 +60,9 @@ To get a local copy up and running follow these simple steps.
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+## Data
+Data is imported into the notebooks using the file_imports.py located in the utils folder. This way, all notebooks are ensured 
+to work after changing only this single file. The file structure should be such that there is a waterlevel folder, a weather data folder and a catchments folder with the shapefiles. By changing this file to point to your own data the rest of the notebooks will all work correctly.
 
 <!-- CONTACT -->
 ## Contact
