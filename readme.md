@@ -62,11 +62,11 @@ To get a local copy up and running follow these simple steps.
 <!-- CONTACT -->
 ## Contact
 
-Jan van der Wijk - J.vanderWijk@student.tudelft.nl
-Patrick de Bruijn - p.j.debruijn@student.tudelft.nl
-Mats Kerver - m.r.kerver@student.tudelft.nl
-Ivan Temme - I.C.Temme@student.tudelft.nl
-Moniek van Zon - M.S.J.vanZon@student.tudelft.nl
+Jan van der Wijk - J.vanderWijk@student.tudelft.nl <br>
+Patrick de Bruijn - p.j.debruijn@student.tudelft.nl <br>
+Mats Kerver - m.r.kerver@student.tudelft.nl <br>
+Ivan Temme - I.C.Temme@student.tudelft.nl <br> 
+Moniek van Zon - M.S.J.vanZon@student.tudelft.nl <br>
 
 Project Link: https://github.com/pjdebruijn2505/Git_mdp
 
