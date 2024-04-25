@@ -1,10 +1,16 @@
+# Simple class that can create interactive plots using the vega Altair package. Currently only a scatterplot is implemented
+# but in more methods can easily be added to the class if desired. 
+
 import altair as alt
 import pandas as pd
 
 class Graph_tana():
     def __init__(self, dataset):
         self.dataset = dataset
-
+    
+    # Method that creates scatterplot of the waterlevel based on warning level (specified water level in which it is
+    # known that floods can occur, and a time period to plot. ß
+    
     def scatterplot_waterlevel(self, start_date, end_date, warning_level, y_axis_name):
         alt.data_transformers.enable("vegafusion")
         interval = alt.selection_interval(encodings=['x'], empty=True)
@@ -29,8 +35,6 @@ class Graph_tana():
             height=400
         ).add_params(interval)
 
-        # Create the interactive chart with slider
         chart = base.interactive()
 
-        # Show the chart
         return chart
