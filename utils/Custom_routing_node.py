@@ -1,3 +1,7 @@
+# This file attempts to implement the custom node function as explained in the supplement to the original superflexPy paper
+# https://gmd.copernicus.org/articles/14/7047/2021/gmd-14-7047-2021-supplement.pdf here. However the current implementation 
+# is not working and the internal/external routing methods are not functional. 
+
 from superflexpy.framework.node import Node
 
 class RoutedNode(Node):

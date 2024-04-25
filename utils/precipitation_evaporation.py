@@ -10,12 +10,15 @@ def seasonal_trend(n, offset):
     return sin_disc, cos_disc
 
 def Visualize_precipitation_evaporation(evaporation, precipitation):
+    # visualizes the result if specified by the precipitation_evaporation function
+    
     net_flux = precipitation - evaporation
     plt.figure(figsize=(10, 5))
 
     bar_width = 0.4
     index = np.arange(len(precipitation))
 
+    # Plotting both evaporation and precipitation. 
     plt.bar(index, precipitation, color='blue', width=bar_width, label='Precipitation [mm/day]')
     plt.bar(index + bar_width, evaporation, color='red', width=bar_width, label='Evaporation [mm/day]')
     plt.ylim(0, max(np.max(precipitation), np.max(evaporation)))
@@ -40,24 +43,27 @@ def Visualize_precipitation_evaporation(evaporation, precipitation):
     return
 
 def precipitation_evaporation(years, offset, season = True, plot = True):
-# We create a precipitation time series of years *365 time steps and predict the output of the reservoir
-
-    #reproducibility
+    # A precipitation time series of years *365 time steps is created. Similarly a evaporation time series 
+    # of the same length is created. To create more variation a seasonal variety is implemented in both the
+    # precipitation and evaporation. 
+    
+    # If needed the a seed can be uncommented to ensure reproducibility. 
     #np.random.seed(42)
-    n = years * 365  # daily data
+    
+    n = years * 365  
 
     if (season == True):
         sin_disc, cos_disc = seasonal_trend(n,offset)
     else:
         sin_disc, cos_disc = 1, 1
-    # Generate a synthetic dataset of 200 precipitation values
+    # Generate a synthetic dataset of precipitation values and to the same for evaporation
+    # Any values smaller than zero are removed. 
     precipitation = np.random.normal(loc=2.5, scale=2, size=n)*cos_disc
-    precipitation[precipitation < 0] = 0  # Ensure values are non-negative
+    precipitation[precipitation < 0] = 0  
+    evaporation = np.random.normal(loc=2.5, scale=2, size=n)* sin_disc 
+    evaporation[evaporation < 0] = 0 
 
-    evaporation = np.random.normal(loc=2.5, scale=2, size=n)* sin_disc #Slightly smaller values for evaporation
-    evaporation[evaporation < 0] = 0  # Ensure values are non-negative
-
-    # Round values to two decimal places
+    # Round off values and plot the result if desired (default = trueß)
     evaporation = np.round(evaporation, 1)
     precipitation = np.round(precipitation, 1)
 

@@ -8,46 +8,55 @@ import geopandas as gpd
 import rasterio
 from rasterio.mask import mask
 import time
+import sys
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
+from pathlib import Path
 
-#Long code, keeps track of passed time for future reference
+#Long runtime, keeps track of passed time for future reference
 start_time = time.time()
 
 #Prevent program from crashing outright.
 try:
+
     cwd = pathlib.Path().resolve()
     src = cwd.parent
     data = src.parent.parent.parent.parent.parent.parent.parent.parent.parent
-    data = os.path.join(data, 'Documents')
+    root = src.parent.parent.parent.parent.parent.parent.parent
+    sys.path.append(str(src))
+    sys.path.append(str(root))
+    from utils.file_imports import *
 
+    data_paths = file_paths(root, TAHMO=True, catchments = True)
+    evaporation = data_paths[2]
+    results_path = data_paths[-1]
+    data_path = data_paths[-2]
+    shape_path = data_path
     # Load in the correct data paths for the data processing, subsequently load in data.
     # Replace paths with your own values.
     username = 'User '
-    data_path = os.path.join(data, 'data_tana', 'catchments')
-    shape_path = os.path.join(data, 'data_tana', 'catchments')
-    results_path = os.path.join(data, 'data_tana', 'catchments', 'results')
-    evaporation = os.path.join(data, 'data_tana', 'TAHMO', 'interpolated')
     print(f"Welcome! Your data should be located in {data_path}")
-    data_files = glob.glob(os.path.join(data_path, '*.nc'))
     data_path_evap = os.path.join(evaporation, 'kriging_results_evap.nc')
+
+    path_data_folder = Path(r"../data/3_precip")
+    data_files = path_data_folder.joinpath(r"chirps_2018_2022_28.45_43.55_-5.05_5.45.nc")
 
     average_evap = 0.41639290443606647
     datasets = {}
 
-    for file_path in data_files:
-        # Extract the file identifier from the file name and extract it as key for the dataframe
-        file_name = os.path.basename(file_path)
-        file_identifier = file_name.split('_')[0]
 
-        # Open the dataset and evaporation dataset as xarrays and identify them based on file key
-        dataset = xr.open_dataset(file_path)
-        dataset_evap = xr.open_dataset(data_path_evap)
-        dataset = dataset.assign_coords(file_identifier=file_identifier)
-        datasets[file_identifier] = dataset
+    # Extract the file identifier from the file name and extract it as key for the dataframe
+    file_name = os.path.basename(data_files)
+    file_identifier = file_name.split('_')[0]
+
+    # Open the dataset and evaporation dataset as xarrays and identify them based on file key
+    dataset = xr.open_dataset(data_files)
+    dataset_evap = xr.open_dataset(data_path_evap)
+    dataset = dataset.assign_coords(file_identifier=file_identifier)
+    datasets[file_identifier] = dataset
 
     #Load in the remote sensing precipitation dataset.
-    chirps_file = data_files[0]
+    chirps_file = data_files
 
     #Load in the shape files that are used to clip the data to the sub-catchments. They are merged together in a single dataframe.
     shape_file = os.path.join(shape_path, '*.gpkg')
