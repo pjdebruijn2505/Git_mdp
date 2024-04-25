@@ -8,9 +8,9 @@ def file_paths(root, TAHMO = False, WRA = False, catchments = False):
     root_path = os.path.join(root_folder, 'data_tana')
     results = []
 
-    # If file structure follows read-me instructions, no other modifications to this file are neccesary.
-
-    if TAHMO:
+    # Change the filenames in the document to point to your own data.
+    
+    if TAHMO: # weather station data 
         TAHMO_folder = os.path.join(root_path, 'TAHMO')
         raw_folder = os.path.join(root_path, TAHMO_folder, 'raw_TAHMO')
         results_folder = os.path.join(TAHMO_folder, 'processed_TAHMO')
@@ -26,7 +26,7 @@ def file_paths(root, TAHMO = False, WRA = False, catchments = False):
               f' the third one to {results[-2]}. Animations will be located in {results[-1]}')
 
 
-    if WRA:
+    if WRA: # water gauge stations
         WRA_folder = os.path.join(root_path, 'WRA')
         Garissa_folder = os.path.join(WRA_folder, 'Garissa_station')
         other_stations = os.path.join(WRA_folder, 'other_stations')
@@ -37,14 +37,14 @@ def file_paths(root, TAHMO = False, WRA = False, catchments = False):
         print(f'The {len(results)-1} entry is pointing to {results[-2]}, the {len(results)} one to {results[-1]}')
 
 
-    if catchments:
+    if catchments: #shapefiles of catchments. 
         tana_sub_catchments = os.path.join(root_path, 'catchments')
         tana_netCDF = os.path.join(tana_sub_catchments, 'results')
 
         results.append(tana_sub_catchments)
         results.append(tana_netCDF)
         
-        print(f'The {len(results)-1} entry is pointing to {results[-2]}, the {len(results)} one to {results[-1]} and')
+        print(f'The {len(results)-1} entry is pointing to {results[-2]}, the {len(results)} one to {results[-1]}.')
 
     if (len(results) == 0):
         warnings.warn("Warning, the resulting set of datapaths is empty. Make sure you specfiy the type of data you"
