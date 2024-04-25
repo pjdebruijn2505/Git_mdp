@@ -54,7 +54,9 @@ To get a local copy up and running follow these simple steps.
     conda env create -f FEWS_tana.yml
    ```
 3. Install SFINCS (open source)
+    ```sh
     https://www.deltares.nl/en/software-and-data/products/sfincs
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
