@@ -1,7 +1,0 @@
-observatorypoints.geojson:
-  data_type: GeoDataFrame
-  provider: user
-  path: datafiles\observatorypoints.geojson
-  driver: vector
-  driver_kwargs:
-    assert_gtype: Point
